@@ -1,18 +1,23 @@
-## Exercício – Clean Code
-### Descrição
+## ExercÃ­cio â€“ Clean Code
 
-Você está trabalhando em um sistema de vendas.
-A classe abaixo tem um único método responsável por calcular o valor final de um pagamento:
-- Recebe dados de um pedido (quantidade, valor unitário do item, tipo de cliente, se ele tem desconto ou não)
-- Válida se os valores são válidos (quantidade e valor do item devem ser diferente de 0)
-- Calcula o valor total da compra (quantidade * valorUnitário)
+###RefatoraÃ§Ã£o: Calculadora de Vendas em C#
+
+Este projeto foi realizado por Priscilla Braun Trevizan Tomazi e Allexia DesirÃ©e Lefundes Nascimento. Seu objetivo Ã© demonstrar a refatoraÃ§Ã£o de um mÃ©todo de cÃ¡lculo de pagamentos, aplicando princÃ­pios de Clean Code (CÃ³digo Limpo). Ele foi apresentado dentro do bootcamp CodeRDIversity, uma parceria entre RDI Software e Prosper Dgital Skills.
+
+### DescriÃ§Ã£o
+
+VocÃª estÃ¡ trabalhando em um sistema de vendas.
+A classe abaixo tem um Ãºnico mÃ©todo responsÃ¡vel por calcular o valor final de um pagamento:
+- Recebe dados de um pedido (quantidade, valor unitÃ¡rio do item, tipo de cliente, se ele tem desconto ou nÃ£o)
+- VÃ¡lida se os valores sÃ£o vÃ¡lidos (quantidade e valor do item devem ser diferente de 0)
+- Calcula o valor total da compra (quantidade * valorUnitÃ¡rio)
 - Aplica desconto dependendo do tipo de cliente:
 
 	> **Cliente Regular** tem 5% de desconto
 	> **ClientePremium** tem 10% de desconto
 	> **ClienteVip** tem 15% de desconto
 - 
-### Código Base:
+### CÃ³digo Base:
  ```
  public class P{
     public double M(int q, double p, int t, bool d){
