@@ -1,6 +1,6 @@
 ## Exercício – Clean Code
 
-###Refatoração: Calculadora de Vendas em C#
+### Refatoração: Calculadora de Vendas em C#
 
 Este projeto foi realizado por Priscilla Braun Trevizan Tomazi e Allexia Desirée Lefundes Nascimento. Seu objetivo é demonstrar a refatoração de um método de cálculo de pagamentos, aplicando princípios de Clean Code (Código Limpo). Ele foi apresentado dentro do bootcamp CodeRDIversity, uma parceria entre RDI Software e Prosper Dgital Skills.
 
